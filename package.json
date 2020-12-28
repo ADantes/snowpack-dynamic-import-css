@@ -1,0 +1,13 @@
+{
+  "name": "@jamcart/registration",
+  "private": "true",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build && sirv build"
+  },
+  "devDependencies": {
+    "sirv-cli": "^1.0.10",
+    "snowpack": "^3.0.0-rc.2"
+  }
+}
